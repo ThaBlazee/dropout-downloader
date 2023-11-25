@@ -3,17 +3,42 @@
 <head>
   <title>Vimeo Video Profiles</title>
   <style>
-    /* Add your CSS styling here */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: azure;
+      padding: 10px;
+      margin: 0;
+      text-align: center;
+    }
+
     button {
+      background-color: #007FFF; /* Azure color */
+      color: white;
+      border: none;
+      padding: 10px 20px;
       margin: 5px;
-      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #005f99; /* Darker azure */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    #profiles {
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
+  <h3>Dropout - Downloader</h3>
   <div id="profiles">
     <!-- Download buttons will be added here -->
   </div>
+  <h4>by ThaBlazee</h4>
+  <a href="https://github.com/ThaBlazee/dropout-downloader" target="_blank">link</a>
   <script src="popup.js"></script>
 </body>
 </html>
