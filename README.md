@@ -17,9 +17,9 @@ Steps to Manually Install a .crx Chrome Extension
 
 ### - Navigate to the Extensions Page:
 
-    In Chrome, you can enter chrome://extensions/ in the address bar.\
-    In Edge, enter edge://extensions/.\
-    In Brave, enter brave://extensions/.\
+    In Chrome, you can enter chrome://extensions/ in the address bar.  
+    In Edge, enter edge://extensions/.  
+    In Brave, enter brave://extensions/.  
 
 ### - Enable Developer Mode:
 
