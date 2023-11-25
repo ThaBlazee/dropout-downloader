@@ -1,6 +1,6 @@
 # dropout-downloader
 
-![Icon](images/dropout-downloader.png)
+![Icon](images/dropout-downloader.png)  
 Chromium extension to download Episodes from Dropout
 
 V1.0.0 Released!
