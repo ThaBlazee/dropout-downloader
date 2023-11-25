@@ -1,10 +1,9 @@
 # dropout-downloader
 
 ![Icon](images/dropout-downloader.png)  
-Chromium extension to download Episodes from Dropout
+Chromium extension to download Episodes from Dropout  
 
-V1.0.0 Released!
-I currently don't plan to relase this to the chrome web-store. 
+I currently don't plan to relase this to the chrome web-store.  
 
 
 Steps to Manually Install a .crx Chrome Extension
