@@ -3,7 +3,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   chrome.storage.local.get(['videoProfiles'], function(result) {
     if (result.videoProfiles && result.videoProfiles.length > 0) {
-      result.videoProfiles.forEach(profile => {
+      // Sort the video profiles by quality
+      const sortedProfiles = result.videoProfiles.sort((a, b) => {
+        const qualityA = parseInt(a.quality.replace('p', ''), 10);
+        const qualityB = parseInt(b.quality.replace('p', ''), 10);
+        return qualityA - qualityB;
+      });
+
+      sortedProfiles.forEach(profile => {
         const downloadButton = document.createElement('button');
         downloadButton.textContent = `${profile.quality}`;
         downloadButton.addEventListener('click', function() {
